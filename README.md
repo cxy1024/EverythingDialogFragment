@@ -3,7 +3,9 @@
 基类DialogFragment
 
 使用方法(一)
-EverythingDialogFragment.
+
+```
+  EverythingDialogFragment.
                 newInstance().
                 setWidthPercentSize(0.8f).
                 setHeightPercentSize(0.8f).
@@ -12,9 +14,9 @@ EverythingDialogFragment.
                 setConvertViewListener((holder, dialog) -> {
                     TextView tv1 = holder.findViewById(R.id.tv1);
                 });
-
-
+```
 使用方法(二)
+```
   EverythingDialogFragment.
                 newInstance().
                 setWidthPercentSize(0.8f).
@@ -27,5 +29,6 @@ EverythingDialogFragment.
                         //do something
                     }
                 });
+```
 
 
